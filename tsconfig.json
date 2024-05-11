@@ -18,8 +18,9 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".", 
     "paths": {
-      "@/*": ["./*"]
+      "@/app/*": ["app/*"]
     }
   },
   "include": [
@@ -31,4 +32,6 @@
     "scripts/seed.js"
   ],
   "exclude": ["node_modules"]
+
+
 }
