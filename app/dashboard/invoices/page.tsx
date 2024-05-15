@@ -1,12 +1,12 @@
-import { lusitana } from '@/app/ui/fonts';
-import { CreateInvoice } from '@/app/ui/invoices/buttons';
-import Table from '@/app/ui/invoices/table';
-import Search from '@/app/ui/search';
-import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
+import { lusitana } from '@/ui/fonts';
+import { CreateInvoice } from '@/ui/invoices/buttons';
+import Table from '@/ui/invoices/table';
+import Search from '@/ui/search';
+import { InvoicesTableSkeleton } from '@/ui/skeletons';
 import { Suspense } from 'react';
 
-import { fetchInvoicesPages } from '@/app/lib/data';
-import Pagination from '@/app/ui/invoices/pagination';
+import { fetchInvoicesPages } from '@/lib/data';
+import Pagination from '@/ui/invoices/pagination';
 
 export default async function Page({ searchParams }: {
     searchParams?: {

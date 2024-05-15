@@ -1,5 +1,5 @@
-import { fetchLatestInvoices } from '@/app/lib/data';
-import { lusitana } from '@/app/ui/fonts';
+import { fetchLatestInvoices } from '@/lib/data';
+import { lusitana } from '@/ui/fonts';
 import { ArrowPathIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 import Image from 'next/image';
